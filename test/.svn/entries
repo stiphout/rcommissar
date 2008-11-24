@@ -1,0 +1,74 @@
+9
+
+dir
+5
+svn://sourcecode.emidev.com/ruby_apps/commissar/trunk/test
+svn://sourcecode.emidev.com/ruby_apps/commissar/trunk
+
+
+
+2008-11-19T16:23:05.783565Z
+1
+stiphour
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da515e98-006b-744a-8dc1-14578552c52a
+
+unit
+dir
+
+test_helper.rb
+file
+
+
+
+
+2008-11-24T11:23:14.000000Z
+30478106e9df8977e79fc045df799e29
+2008-11-19T16:23:05.783565Z
+1
+stiphour
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1797
+
+functional
+dir
+
+integration
+dir
+
+fixtures
+dir
+

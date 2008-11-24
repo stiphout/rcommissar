@@ -1,0 +1,36 @@
+<p>
+  <b>Title:</b>
+  <%=h @asset.title %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%=h @asset.duration %>
+</p>
+
+<p>
+  <b>ISRC:</b>
+  <%=h @asset.isrc %>
+</p>
+
+<p>
+  <b>File Name:</b>
+  <%=h @asset.file_name %>
+</p>
+
+<p>Tracks</p>
+<table>
+  <tr>
+    <td>Title</td>
+    <td>Duration</td>
+  </tr>
+  <% for track in @asset.tracks %>
+    <tr>
+      <td><%= link_to track.title, track %></td>
+      <td><%= track.duration %></td>
+    </tr>
+  <%end %>
+</table>
+
+<%= link_to 'Edit', edit_asset_path(@asset) %> |
+<%= link_to 'Back', assets_path %>

@@ -1,0 +1,17 @@
+<p>
+  <b>ID:</b>
+  <%=h @rule.id %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @rule.description %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @rule.body %>
+</p>
+
+<%= link_to 'Edit', edit_rule_path(@rule) %> |
+<%= link_to 'Back', rules_path %>

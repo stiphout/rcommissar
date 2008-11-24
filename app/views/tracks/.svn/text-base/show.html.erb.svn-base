@@ -1,0 +1,34 @@
+<p>
+  <b>Title:</b>
+  <%=h @track.title %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%=h @track.duration %>
+</p>
+
+<p>
+  <b>Product ID:</b>
+  <%=h @track.product_id %>
+</p>
+
+<% if @track.product %>
+  <p>
+    Product Details: <%= link_to @track.product.title, @track.product %>
+  </p>
+<% end %>
+
+<p>
+  <b>Asset ID:</b>
+  <%=h @track.asset_id %>
+</p>
+
+<% if @track.asset %>
+  <p>
+    Asset Details: <%= link_to @track.asset.title, @track.asset %>
+  </p>
+<% end %>
+
+<%= link_to 'Edit', edit_track_path(@track) %> |
+<%= link_to 'Back', tracks_path %>

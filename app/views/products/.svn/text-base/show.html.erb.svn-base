@@ -1,0 +1,74 @@
+<p>
+  <b>ID:</b>
+  <%=h @product.id %>
+</p>
+<p>
+  <b>Title:</b>
+  <%=h @product.title %>
+</p>
+<p>
+  <b>Artist Name:</b>
+  <%=h @product.artist_name %>
+</p>
+<p>
+  <b>Version Title:</b>
+  <%=h @product.version_title %>
+</p>
+<p>
+  <b>Internal Version Title:</b>
+  <%=h @product.internal_version_title %>
+</p>
+<p>
+  <b>Format Description:</b>
+  <%=h @product.format_description %>
+</p>
+<p>
+  <b>ICPN:</b>
+  <%=h @product.icpn %>
+</p>
+<p>
+  <b>Genre:</b>
+  <%= h @product.genre %>
+</p>
+<p>
+    <b>Label:</b>
+  <%= h @product.label %>
+</p>
+<p>
+    <b>Marketing Intent:</b>
+  <%= h @product.marketing_intent %>
+</p>
+<p>
+    <b>Copyright Company:</b>
+  <%= h @product.copyright_company %>
+</p>
+<p>
+    <b>Copyright Year:</b>
+  <%= h @product.copyright_year %>
+</p>
+<p>
+    <b>Genre:</b>
+  <%= h @product.release_date %>
+</p>
+<p>
+    <b>Ownership Type:</b>
+  <%= h @product.ownership_type %>
+</p>
+
+<p>Tracks</p>
+<table>
+  <tr>
+    <td>Title</td>
+    <td>Duration</td>
+  </tr>
+  <% for track in @product.tracks %>
+    <tr>
+      <td><%= link_to track.title, track %></td>
+      <td><%= track.duration %></td>
+    </tr>
+  <%end %>
+</table>
+  
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>

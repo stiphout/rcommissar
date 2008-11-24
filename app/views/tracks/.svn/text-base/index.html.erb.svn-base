@@ -1,0 +1,27 @@
+<h1>Listing tracks</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Duration</th>
+    <th>Product ID</th>
+    <th>Asset ID</th>
+  </tr>
+
+<% for track in @tracks %>
+  <tr>
+    <td><%=h track.title %></td>
+    <td><%=h track.duration %></td>
+    <td><%=h track.product_id %></td>
+    <td><%=h track.asset_id %></td>
+
+    <td><%= link_to 'Show', track %></td>
+    <td><%= link_to 'Edit', edit_track_path(track) %></td>
+    <td><%= link_to 'Destroy', track, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New track', new_track_path %>
