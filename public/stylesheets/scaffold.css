@@ -82,6 +82,20 @@ body {
 
 .menu ul li a:visited {
 }
+ul.star_opt {
+   list-style-image: url( ../images/star_31x25.gif )
+}
+
+ul.star_opt li {
+    margin-top: 50px;
+    font-size: 200%;
+}
+ul.star_opt li a {
+    text-decoration: none;
+}
+ul.star_opt li a:hover {
+    background-color: maroon;
+}
 
 
 
