@@ -1,7 +1,7 @@
 paws_config.yml
-*.idea/*
-*.svn/*
-nbproject/*
+.idea/
+.svn/
+nbproject/
 log/*.log
 config/database.yml
 config/database.prod.yml
