@@ -1,3 +1,5 @@
+require 'rule_book'
+
 module RuleEnforcer
     def self.included(base)
         puts 'Init enforcer'

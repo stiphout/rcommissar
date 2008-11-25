@@ -1,13 +1,21 @@
 require 'test/unit'
 require '../lib/result_card'
-require '../lib/rule_result'
+require '../lib/rule_result_template'
+require '../lib/rule_template'
 
-class TestRule
+# Test implementation of the rule model
+class Rule
+    include(RuleTemplate)
     attr_accessor :outcomes
 
     def initialize
         @outcomes = ["TestStatus"]
     end
+end
+
+# Test implementation of the rule result model
+class RuleResult
+    include(RuleResultTemplate)
 end
 
 class ResultCardTest < Test::Unit::TestCase
@@ -39,7 +47,7 @@ class ResultCardTest < Test::Unit::TestCase
     def test_register_rule_result_failure
         result_card = ResultCard.new
         result_card.register_statuses "TestStatus"
-        result_card.register_rule_result TestRule.new, "Error Message", false
+        result_card.register_rule_result Rule.new, "Error Message", false
         assert result_card.all_achieved_statuses.empty?
         assert_equal result_card.all_failed_statuses[0], "TestStatus"
     end
@@ -47,7 +55,7 @@ class ResultCardTest < Test::Unit::TestCase
     def test_register_rule_result_pass
         result_card = ResultCard.new
         result_card.register_statuses "TestStatus"
-        result_card.register_rule_result TestRule.new, nil, false
+        result_card.register_rule_result Rule.new, nil, false
         assert_equal result_card.all_achieved_statuses[0], "TestStatus"
         assert result_card.all_failed_statuses.empty?
     end
@@ -55,10 +63,10 @@ class ResultCardTest < Test::Unit::TestCase
     def test_status_progress_percentage
         result_card = ResultCard.new
         result_card.register_statuses "TestStatus"
-        result_card.register_rule_result TestRule.new, "Error Message", false
-        result_card.register_rule_result TestRule.new, nil, false
-        result_card.register_rule_result TestRule.new, nil, false
-        result_card.register_rule_result TestRule.new, nil, false
+        result_card.register_rule_result Rule.new, "Error Message", false
+        result_card.register_rule_result Rule.new, nil, false
+        result_card.register_rule_result Rule.new, nil, false
+        result_card.register_rule_result Rule.new, nil, false
         assert_equal result_card.status_progress_percentage("TestStatus"), 75
     end
 

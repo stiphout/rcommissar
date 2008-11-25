@@ -1,0 +1,13 @@
+development:
+  aws_access_key: 0BF6098X0VR1D19EW302  
+  aws_secret_key: vPsErmXUTzLYss40C8fMlY8t0jiL2qSBZvq97PNj
+
+  s3_bucket: simpledbsampleapp
+  domain: marketplace-domain
+
+#  memcached_servers: 127.0.0.1:11211
+
+
+test:
+
+production:

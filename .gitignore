@@ -1,1 +1,4 @@
 paws_config.yml
+.idea/*
+.svn/*
+

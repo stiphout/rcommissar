@@ -1,0 +1,38 @@
+9
+
+dir
+12
+svn://sourcecode.emidev.com/ruby_apps/commissar/trunk/vendor/plugins/paws
+svn://sourcecode.emidev.com/ruby_apps/commissar/trunk
+
+
+
+2008-11-25T12:04:58.627250Z
+12
+dewee
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+lib
+dir
+

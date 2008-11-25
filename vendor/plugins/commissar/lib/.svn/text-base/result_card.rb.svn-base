@@ -15,7 +15,6 @@ class ResultCard
     end
 
     def register_rule_result rule, error_message, abort_event
-        puts "registering rule result, error_message: #{error_message}"
         rule_result = RuleResult.new rule, error_message
         @rule_results << rule_result
         if !rule.outcomes.nil?

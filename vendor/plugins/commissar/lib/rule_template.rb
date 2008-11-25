@@ -1,3 +1,5 @@
+require 'date'
+
 module RuleTemplate
     attr_reader :passed, :abort_on_fail, :active_field, :outcomes
     attr_accessor :rule_code, :gate_code
@@ -45,6 +47,11 @@ module RuleTemplate
         @current_field = field
     end
 
+    # Helper method for casting dates.
+    def date(date_string)
+        Date.parse date_string
+    end
+
     def for_outcome list_of_outcomes
         @current_section = :outcome
         @current_token = :for_outcome
@@ -57,16 +64,47 @@ module RuleTemplate
         @abort_on_fail = true
     end
 
+    def compares_to(value, operator)
+        case
+          when value.kind_of?(Date)
+            %Q{entity.#{@current_field} #{operator} Date.parse('#{value}')}
+          when value.kind_of?(Numeric)
+            %Q{entity.#{@current_field} #{operator} #{value}}
+          else # Assume a kind of string
+            %Q{entity.#{@current_field} #{operator} '#{value}'}
+        end
+    end
+
     def equal_to(value)
-        append_condition format_equal_to_condition(@current_field, value)
+        append_condition compares_to(value, '==')
+    end
+
+    def not_equal_to(value)
+        append_condition compares_to(value, '!=')
+    end
+
+    def greater_than(value)
+        append_condition compares_to(value, '>')
+    end
+
+    def greater_than_or_equal_to(value)
+        append_condition compares_to(value, '>=')
+    end
+
+    def less_than(value)
+        append_condition compares_to(value, '<')
+    end
+
+    def less_than_or_equal_to(value)
+        append_condition compares_to(value, '<=')
     end
 
     def matching_pattern(value)
-        append_condition format_matches_pattern_condition(@current_field, value)
+        append_condition %Q{(entity.#{@current_field} =~ /#{value}/) != nil}
     end
 
     def no_longer_than(value)
-        append_condition format_field_no_longer_than_condition(@current_field, value)
+        append_condition %Q{(entity.#{@current_field}.length <= #{value})}
     end
 
     def append_condition(condition)
@@ -74,7 +112,7 @@ module RuleTemplate
             if @current_token == :and
                 self.gate_code << ' && '
             elsif @current_token == :or
-                self.gate_code << ' && '
+                self.gate_code << ' || '
             else
                 self.gate_code = ''
             end
@@ -86,20 +124,8 @@ module RuleTemplate
             end
             }
         else
-            puts "Must follow a 'with', 'and' or 'has' call."
+            raise "Must be a part of a gate condition or rule test section."
         end
-    end
-
-    def format_equal_to_condition(field, value)
-        %Q{entity.#{field} == '#{value}'}
-    end
-
-    def format_matches_pattern_condition(field, value)
-        %Q{(entity.#{field} =~ /#{value}/) != nil}
-    end
-
-    def format_field_no_longer_than_condition(field, value)
-        %Q{(entity.#{field}.length <= #{value})}
     end
 
     def has_required (field)

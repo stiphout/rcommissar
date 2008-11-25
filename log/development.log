@@ -8078,3 +8078,992 @@ c2h7AAY6CkB1c2VkewA=--312dbe21928b1532d4f336437775be8136f66dc5
 Rendering template within layouts/products
 Rendering products/edit
 Completed in 5.34753 (0 reqs/sec) | Rendering: 0.02278 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb674b268%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:08:38) [GET]
+  Session ID: e500126013ce319dccd815a99f81c672
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 5.60656 (0 reqs/sec) | Rendering: 0.03505 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#destroy (for 127.0.0.1 at 2008-11-24 08:08:56) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"delete", "action"=>"destroy", "id"=>"#<UUID:0xb754871c>", "controller"=>"products"}
+Redirected to http://localhost:3000/products
+Completed in 1.20273 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb754871c%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:08:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.73712 (0 reqs/sec) | Rendering: 0.03098 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#destroy (for 127.0.0.1 at 2008-11-24 08:09:04) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"delete", "action"=>"destroy", "id"=>"#<UUID:0xb68ff85c>", "controller"=>"products"}
+Redirected to http://localhost:3000/products
+Completed in 1.19407 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb68ff85c%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:09:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.75964 (0 reqs/sec) | Rendering: 0.02842 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#destroy (for 127.0.0.1 at 2008-11-24 08:09:12) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"delete", "action"=>"destroy", "id"=>"#<UUID:0xb6920c78>", "controller"=>"products"}
+Redirected to http://localhost:3000/products
+Completed in 1.17650 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb6920c78%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:09:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 4.28853 (0 reqs/sec) | Rendering: 0.03046 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 08:09:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb6875a58>", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 0.61037 (1 reqs/sec) | Rendering: 0.02286 (3%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6875a58%3E/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 08:09:24) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb6875a58>", "product"=>{"label"=>"", "title"=>"", "artist_name"=>"", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 2.43067 (0 reqs/sec) | Rendering: 0.02010 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6875a58%3E]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 08:09:46) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb6875a58>", "product"=>{"label"=>"", "title"=>"Title - 1", "artist_name"=>"Artist - 1", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 2.71459 (0 reqs/sec) | Rendering: 0.02252 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6875a58%3E]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 08:10:04) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb6875a58>", "product"=>{"label"=>"", "title"=>"TItle 8", "artist_name"=>"Artist 9", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 2.40837 (0 reqs/sec) | Rendering: 0.01896 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6875a58%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:10:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.83829 (0 reqs/sec) | Rendering: 0.02572 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#destroy (for 127.0.0.1 at 2008-11-24 08:10:19) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"delete", "action"=>"destroy", "id"=>"#<UUID:0xb6875a58>", "controller"=>"products"}
+Redirected to http://localhost:3000/products
+Completed in 1.15457 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb6875a58%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:10:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.92903 (0 reqs/sec) | Rendering: 0.03560 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#destroy (for 127.0.0.1 at 2008-11-24 08:10:28) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"delete", "action"=>"destroy", "id"=>"#<UUID:0xb689eb60>", "controller"=>"products"}
+Redirected to http://localhost:3000/products
+Completed in 1.13335 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb689eb60%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:10:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 20.84660 (0 reqs/sec) | Rendering: 0.03956 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#destroy (for 127.0.0.1 at 2008-11-24 08:10:51) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "_method"=>"delete", "action"=>"destroy", "id"=>"#<UUID:0xb68d7460>", "controller"=>"products"}
+Redirected to http://localhost:3000/products
+Completed in 1.28716 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb68d7460%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:10:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.47489 (0 reqs/sec) | Rendering: 0.02958 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:11:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.20235 (0 reqs/sec) | Rendering: 0.02345 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 08:12:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb68bc1c4>", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 0.58616 (1 reqs/sec) | Rendering: 0.01677 (2%) | 200 OK [http://localhost/products/%23%3CUUID:0xb68bc1c4%3E/edit]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 08:13:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb68bc1c4>", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 0.59173 (1 reqs/sec) | Rendering: 0.01594 (2%) | 200 OK [http://localhost/products/%23%3CUUID:0xb68bc1c4%3E/edit]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 08:13:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb68bc1c4>", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 0.58738 (1 reqs/sec) | Rendering: 0.02327 (3%) | 200 OK [http://localhost/products/%23%3CUUID:0xb68bc1c4%3E/edit]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 08:13:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb68bc1c4>", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 0.56450 (1 reqs/sec) | Rendering: 0.01515 (2%) | 200 OK [http://localhost/products/%23%3CUUID:0xb68bc1c4%3E/edit]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 08:14:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb68bc1c4>", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 0.59611 (1 reqs/sec) | Rendering: 0.01583 (2%) | 200 OK [http://localhost/products/%23%3CUUID:0xb68bc1c4%3E/edit]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:14:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.20489 (0 reqs/sec) | Rendering: 0.03515 (1%) | 200 OK [http://localhost/products]
+
+
+Processing AssetsController#index (for 127.0.0.1 at 2008-11-24 08:20:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"assets"}
+Rendering template within layouts/assets
+Rendering assets/index
+Completed in 1.22321 (0 reqs/sec) | Rendering: 0.00905 (0%) | 200 OK [http://localhost/assets]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 08:21:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 0.06293 (15 reqs/sec) | Rendering: 0.02726 (43%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:21:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3.30120 (0 reqs/sec) | Rendering: 0.02626 (0%) | 200 OK [http://localhost/products]
+
+
+Processing AssetsController#new (for 127.0.0.1 at 2008-11-24 08:21:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"assets"}
+Rendering template within layouts/assets
+Rendering assets/new
+Completed in 0.07335 (13 reqs/sec) | Rendering: 0.01820 (24%) | 200 OK [http://localhost/assets/new]
+
+
+Processing AssetsController#index (for 127.0.0.1 at 2008-11-24 08:21:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"assets"}
+Rendering template within layouts/assets
+Rendering assets/index
+Completed in 1.08545 (0 reqs/sec) | Rendering: 0.00385 (0%) | 200 OK [http://localhost/assets]
+
+
+Processing RulesController#new (for 127.0.0.1 at 2008-11-24 08:21:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"rules"}
+Rendering rules/new
+Completed in 0.10043 (9 reqs/sec) | Rendering: 0.01336 (13%) | 200 OK [http://localhost/rules/new]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 08:21:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering rules/index
+Completed in 1.39021 (0 reqs/sec) | Rendering: 0.00600 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 08:26:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 1.77332 (0 reqs/sec) | Rendering: 0.01115 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 08:26:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 1.46525 (0 reqs/sec) | Rendering: 0.00796 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 08:26:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 0.10563 (9 reqs/sec) | Rendering: 0.02794 (26%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:27:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 4.23433 (0 reqs/sec) | Rendering: 0.03080 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:31:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.82567 (0 reqs/sec) | Rendering: 0.02903 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:33:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.45712 (0 reqs/sec) | Rendering: 0.02607 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:34:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 5.99620 (0 reqs/sec) | Rendering: 0.03283 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:35:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.47091 (0 reqs/sec) | Rendering: 0.02610 (0%) | 200 OK [http://localhost/products]
+
+
+Processing AssetsController#index (for 127.0.0.1 at 2008-11-24 08:36:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"assets"}
+Rendering template within layouts/application
+Rendering assets/index
+Completed in 1.04838 (0 reqs/sec) | Rendering: 0.00544 (0%) | 200 OK [http://localhost/assets]
+
+
+Processing AssetsController#index (for 127.0.0.1 at 2008-11-24 08:36:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"assets"}
+Rendering template within layouts/application
+Rendering assets/index
+Completed in 1.06918 (0 reqs/sec) | Rendering: 0.00722 (0%) | 200 OK [http://localhost/assets]
+
+
+Processing AssetsController#new (for 127.0.0.1 at 2008-11-24 08:36:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"assets"}
+Rendering template within layouts/application
+Rendering assets/new
+Completed in 0.08308 (12 reqs/sec) | Rendering: 0.02824 (33%) | 200 OK [http://localhost/assets/new]
+
+
+Processing RulesController#new (for 127.0.0.1 at 2008-11-24 08:36:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/new
+Completed in 0.09375 (10 reqs/sec) | Rendering: 0.01870 (19%) | 200 OK [http://localhost/rules/new]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 08:37:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 1.56801 (0 reqs/sec) | Rendering: 0.00769 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 08:37:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 2.13219 (0 reqs/sec) | Rendering: 0.01349 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 08:39:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 2.22371 (0 reqs/sec) | Rendering: 0.01067 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 08:40:04) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 2.08016 (0 reqs/sec) | Rendering: 0.00930 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 08:44:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 0.10562 (9 reqs/sec) | Rendering: 0.03334 (31%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 08:44:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.20322 (0 reqs/sec) | Rendering: 0.02288 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 09:35:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 1.47943 (0 reqs/sec) | Rendering: 0.03056 (2%) | 200 OK [http://localhost/products/new]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 09:36:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 1.60603 (0 reqs/sec) | Rendering: 0.01580 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 09:37:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 0.07329 (13 reqs/sec) | Rendering: 0.02352 (32%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2008-11-24 09:37:35) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "action"=>"create", "product"=>{"label"=>"", "title"=>"", "artist_name"=>"", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 2.16062 (0 reqs/sec) | Rendering: 0.01559 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2008-11-24 09:38:11) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "action"=>"create", "product"=>{"label"=>"", "title"=>"Martins House", "artist_name"=>"Mr C", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Redirected to http://localhost:3000/products/%23%3CUUID:0xb686e62c%3E
+Completed in 2.57573 (0 reqs/sec) | 302 Found [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2008-11-24 09:38:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--4ed9cdbf82ac5758493f788164e28514caa28e74
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb686e62c>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 1.15267 (0 reqs/sec) | Rendering: 0.49262 (42%) | 200 OK [http://localhost/products/%23%3CUUID:0xb686e62c%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 09:38:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--4dc4749b7046daebc75c444c18d53b33c021bc9c
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 22.15692 (0 reqs/sec) | Rendering: 0.02879 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 09:38:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--4dc4749b7046daebc75c444c18d53b33c021bc9c
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 0.05542 (18 reqs/sec) | Rendering: 0.01980 (35%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2008-11-24 09:39:09) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "action"=>"create", "product"=>{"label"=>"", "title"=>"Martins House", "artist_name"=>"Mr C", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 2.86109 (0 reqs/sec) | Rendering: 0.01536 (0%) | 200 OK [http://localhost/products]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 11:22:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 2.88373 (0 reqs/sec) | Rendering: 0.01363 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 11:24:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 0.09802 (10 reqs/sec) | Rendering: 0.02622 (26%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2008-11-24 11:24:04) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "action"=>"create", "product"=>{"label"=>"", "title"=>"", "artist_name"=>"", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 2.96824 (0 reqs/sec) | Rendering: 0.01646 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2008-11-24 11:24:54) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fbc4d27b3677f9cf24dbff109977854bb96a89c
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"c50ced48b259a6adcda1aea66dd92f9f7c5d5afd", "action"=>"create", "product"=>{"label"=>"", "title"=>"Tets - 1", "artist_name"=>"Artist - 1", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Redirected to http://localhost:3000/products/%23%3CUUID:0xb6868d6c%3E
+Completed in 3.44082 (0 reqs/sec) | 302 Found [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2008-11-24 11:24:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOGY1NTQ3N2Y0OWQxNjcyMzc2MmYxN2Y3NWY3N2Mx
+M2IiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--4ed9cdbf82ac5758493f788164e28514caa28e74
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb6868d6c>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 1.16316 (0 reqs/sec) | Rendering: 0.49620 (42%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6868d6c%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 13:05:07) [GET]
+  Session ID: 0790bd30b3c2a777298028c5455a868d
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 4.75762 (0 reqs/sec) | Rendering: 0.14333 (3%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2008-11-24 13:05:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb6850d34>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 1.12158 (0 reqs/sec) | Rendering: 0.48834 (43%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6850d34%3E]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 13:05:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb6850d34>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 0.69144 (1 reqs/sec) | Rendering: 0.02430 (3%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6850d34%3E/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 13:05:32) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb6850d34>", "product"=>{"label"=>"", "title"=>"Title - 1", "artist_name"=>"Artist - 2", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"zxczxc", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Redirected to http://localhost:3000/products/%23%3CUUID:0xb6850d34%3E
+Completed in 6.25343 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb6850d34%3E]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2008-11-24 13:05:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRl
+ZC4GOgpAdXNlZHsGOwdG--0bddcd20eadade699536624236d6e4efe5e818f4
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb6850d34>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 1.10783 (0 reqs/sec) | Rendering: 0.47959 (43%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6850d34%3E]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 13:05:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRl
+ZC4GOgpAdXNlZHsGOwdU--6408578b8eae33181ab46a261de28eaa023c5826
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb6850d34>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 0.70613 (1 reqs/sec) | Rendering: 0.01855 (2%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6850d34%3E/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 13:05:50) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb6850d34>", "product"=>{"label"=>"", "title"=>"Title - 1", "artist_name"=>"Artist - 1", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"zxczxc", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 8.42400 (0 reqs/sec) | Rendering: 0.01961 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6850d34%3E]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 13:06:18) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb6850d34>", "product"=>{"label"=>"", "title"=>"", "artist_name"=>"Artist - 1", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"zxczxc", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 6.71891 (0 reqs/sec) | Rendering: 0.01803 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb6850d34%3E]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 13:06:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 1.37017 (0 reqs/sec) | Rendering: 0.01318 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-24 13:07:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 0.06224 (16 reqs/sec) | Rendering: 0.02074 (33%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2008-11-24 13:07:51) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "action"=>"create", "product"=>{"label"=>"", "title"=>"Green Goblin", "artist_name"=>"Red Wizard", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Redirected to http://localhost:3000/products/%23%3CUUID:0xb69caee4%3E
+Completed in 3.37916 (0 reqs/sec) | 302 Found [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2008-11-24 13:07:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--ac4ab44df1d999452a9df80b192a149cb15a02db
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb69caee4>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 1.14276 (0 reqs/sec) | Rendering: 0.49200 (43%) | 200 OK [http://localhost/products/%23%3CUUID:0xb69caee4%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 13:08:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--6af529187656b6b5faded9b8a187adea76770e9f
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.61886 (0 reqs/sec) | Rendering: 0.02842 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-24 13:08:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb74bc7a8>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 0.59031 (1 reqs/sec) | Rendering: 0.01721 (2%) | 200 OK [http://localhost/products/%23%3CUUID:0xb74bc7a8%3E/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 13:08:50) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb74bc7a8>", "product"=>{"label"=>"", "title"=>"Test....", "artist_name"=>"", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 2.76819 (0 reqs/sec) | Rendering: 0.01522 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb74bc7a8%3E]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 13:09:01) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb74bc7a8>", "product"=>{"label"=>"", "title"=>"Test....", "artist_name"=>"My Artist", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 2.43944 (0 reqs/sec) | Rendering: 0.02495 (1%) | 200 OK [http://localhost/products/%23%3CUUID:0xb74bc7a8%3E]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-24 13:09:19) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb74bc7a8>", "product"=>{"label"=>"", "title"=>"Test....", "artist_name"=>"Artist - 1", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 3.15962 (0 reqs/sec) | Rendering: 0.02026 (0%) | 200 OK [http://localhost/products/%23%3CUUID:0xb74bc7a8%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-24 13:09:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.45284 (0 reqs/sec) | Rendering: 0.02365 (0%) | 200 OK [http://localhost/products]
+
+
+Processing RulesController#new (for 127.0.0.1 at 2008-11-24 13:09:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"new", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/new
+Completed in 0.04892 (20 reqs/sec) | Rendering: 0.00946 (19%) | 200 OK [http://localhost/rules/new]
+
+
+Processing RulesController#create (for 127.0.0.1 at 2008-11-24 13:13:55) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "action"=>"create", "controller"=>"rules", "rule"=>{"body"=>"check \"Product\"\r\nwith \"ownership_type\" \r\nequal_to \"Owned\"\r\nhas \"repertoire_owner_company\"\r\nequal_to \"EMI\"\r\non \"Save\", \"Submit\", \"Validate\"\r\nto_complete\r\n ", "description"=>"New Rule"}}
+Redirected to http://localhost:3000/rules/%23%3CUUID:0xb684707c%3E
+Completed in 0.76046 (1 reqs/sec) | 302 Found [http://localhost/rules]
+
+
+Processing RulesController#show (for 127.0.0.1 at 2008-11-24 13:13:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNSdWxlIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdG--76e095fc8b82a4168a7976820141a81035fa2ad1
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb684707c>", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/show
+Completed in 0.54497 (1 reqs/sec) | Rendering: 0.00548 (1%) | 200 OK [http://localhost/rules/%23%3CUUID:0xb684707c%3E]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 13:13:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNSdWxlIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdU--24ed54da6028f0aca3c8f63201d50c89ccf0b9b6
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 2.13727 (0 reqs/sec) | Rendering: 0.00936 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing RulesController#destroy (for 127.0.0.1 at 2008-11-24 13:18:25) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"authenticity_token"=>"3e39b81df258c4fc53c204d9ffae11d78b373486", "_method"=>"delete", "action"=>"destroy", "id"=>"#<UUID:0xb67a84e0>", "controller"=>"rules"}
+Redirected to http://localhost:3000/rules
+Completed in 1.30420 (0 reqs/sec) | 302 Found [http://localhost/rules/%23%3CUUID:0xb67a84e0%3E]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-24 13:18:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNjkzNmMyNDlkYTdkYTk3NWE1ZTQzODVjMmVhMzM2
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d4b428557fe89fd3582f7a440f5c6c4b3c1b05e0
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 2.29972 (0 reqs/sec) | Rendering: 0.01072 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2008-11-25 06:53:17) [GET]
+  Session ID: 17ac1b3cacf82d7e061f040970e7570f
+  Parameters: {"action"=>"new", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/new
+Completed in 1.34185 (0 reqs/sec) | Rendering: 0.04701 (3%) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-25 06:53:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTE0MzE1NzA5OGI0YWJjZDg1ZTU5OTBlYWY2N2Fi
+ZWIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--1a33eb4b3d4370d1f171adaa6b6f77adc7bebb08
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 4.12755 (0 reqs/sec) | Rendering: 0.02785 (0%) | 200 OK [http://localhost/products]
+
+
+Processing RulesController#index (for 127.0.0.1 at 2008-11-25 06:53:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTE0MzE1NzA5OGI0YWJjZDg1ZTU5OTBlYWY2N2Fi
+ZWIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--1a33eb4b3d4370d1f171adaa6b6f77adc7bebb08
+  Parameters: {"action"=>"index", "controller"=>"rules"}
+Rendering template within layouts/application
+Rendering rules/index
+Completed in 1.36554 (0 reqs/sec) | Rendering: 0.01007 (0%) | 200 OK [http://localhost/rules]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-25 06:57:02) [GET]
+  Session ID: 5ff645df3b80622b1e21574e2c408b53
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.82787 (0 reqs/sec) | Rendering: 0.02592 (0%) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2008-11-25 06:57:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7059a65d5052b92e91fe511a849c7ccd0390bda5
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb66eee00>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 1.12864 (0 reqs/sec) | Rendering: 0.51434 (45%) | 200 OK [http://localhost/products/%23%3CUUID:0xb66eee00%3E]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2008-11-25 06:57:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7059a65d5052b92e91fe511a849c7ccd0390bda5
+  Parameters: {"action"=>"edit", "id"=>"#<UUID:0xb66eee00>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/edit
+Completed in 0.71804 (1 reqs/sec) | Rendering: 0.01964 (2%) | 200 OK [http://localhost/products/%23%3CUUID:0xb66eee00%3E/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2008-11-25 06:57:19) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7059a65d5052b92e91fe511a849c7ccd0390bda5
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"2b982ca3beade034dd1d59d62284d8336027ccf7", "_method"=>"put", "action"=>"update", "id"=>"#<UUID:0xb66eee00>", "product"=>{"label"=>"", "title"=>"Title -2", "artist_name"=>"Artist - 1", "copyright_year"=>"", "ownership_type"=>"", "internal_version_title"=>"", "icpn"=>"", "genre"=>"", "copyright_company"=>"", "version_title"=>"My Version Title", "release_date"=>"", "format_description"=>"", "marketing_intent"=>""}, "controller"=>"products"}
+Redirected to http://localhost:3000/products/%23%3CUUID:0xb66eee00%3E
+Completed in 6.09047 (0 reqs/sec) | 302 Found [http://localhost/products/%23%3CUUID:0xb66eee00%3E]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2008-11-25 06:57:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRl
+ZC4GOgpAdXNlZHsGOwdG--1d0f330b2496d71e3a6c9edaac1af7640cbd8556
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb66eee00>", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/show
+Completed in 1.65270 (0 reqs/sec) | Rendering: 0.53706 (32%) | 200 OK [http://localhost/products/%23%3CUUID:0xb66eee00%3E]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2008-11-25 06:57:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9kdWN0IHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRl
+ZC4GOgpAdXNlZHsGOwdU--e5ff52980056cc32baae227a700240fc25f9e807
+  Parameters: {"action"=>"index", "controller"=>"products"}
+Rendering template within layouts/application
+Rendering products/index
+Completed in 3.69298 (0 reqs/sec) | Rendering: 0.02449 (0%) | 200 OK [http://localhost/products]
+
+
+Processing AssetsController#new (for 127.0.0.1 at 2008-11-25 06:58:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7059a65d5052b92e91fe511a849c7ccd0390bda5
+  Parameters: {"action"=>"new", "controller"=>"assets"}
+Rendering template within layouts/application
+Rendering assets/new
+Completed in 0.09850 (10 reqs/sec) | Rendering: 0.01364 (13%) | 200 OK [http://localhost/assets/new]
+
+
+Processing AssetsController#create (for 127.0.0.1 at 2008-11-25 06:58:17) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7059a65d5052b92e91fe511a849c7ccd0390bda5
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2b982ca3beade034dd1d59d62284d8336027ccf7", "action"=>"create", "controller"=>"assets", "asset"=>{"duration"=>"0:00:00", "title"=>"My new asset", "file_name"=>"", "isrc"=>""}}
+Redirected to http://localhost:3000/assets/%23%3CUUID:0xb655ff30%3E
+Completed in 2.11290 (0 reqs/sec) | 302 Found [http://localhost/assets]
+
+
+Processing AssetsController#show (for 127.0.0.1 at 2008-11-25 06:58:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTFiYTllOTc1Nzc3NWRkYWZmMDhjYTlmMmYzZjk5
+NjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRBc3NldCB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0ZWQu
+BjoKQHVzZWR7BjsHRg==--cd5403135a5ed6f9babe6b77363b60fc4abcf179
+  Parameters: {"action"=>"show", "id"=>"#<UUID:0xb655ff30>", "controller"=>"assets"}
+Rendering template within layouts/application
+Rendering assets/show
+Completed in 1.17493 (0 reqs/sec) | Rendering: 0.59559 (50%) | 200 OK [http://localhost/assets/%23%3CUUID:0xb655ff30%3E]

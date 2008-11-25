@@ -4,7 +4,7 @@ class RuleBook
   include Singleton
 
   def rules
-      @rules = Rule.find(:all)
+      @rules = Kernel.const_get(:Rule).find(:all)
       @rules.each do |rule|
           rule.initialize_from_body
       end
