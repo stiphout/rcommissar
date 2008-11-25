@@ -11,7 +11,7 @@ module RuleTemplate
     def initialize_from_body
         instance_eval(self.body)
     end
-    
+
     def check (*targets)
         @current_section = :target_entities
         @current_token = :check
@@ -23,7 +23,7 @@ module RuleTemplate
         @current_token = :on
         @events = events_that_trigger
     end
-    
+
     def with (field)
         @current_section = :gate_condition
         @current_token = :with
@@ -45,6 +45,10 @@ module RuleTemplate
     def or(field)
         @current_token = :or
         @current_field = field
+    end
+
+    def where_each(target_child)
+      @target_child = target_child
     end
 
     # Helper method for casting dates.
@@ -118,11 +122,7 @@ module RuleTemplate
             end
             self.gate_code << condition
         elsif(@current_section == :rule_test)
-            self.rule_code = %Q{
-            def eval_rule(entity)
-              #{condition}
-            end
-            }
+            self.rule_code = condition
         else
             raise "Must be a part of a gate condition or rule test section."
         end
@@ -130,16 +130,11 @@ module RuleTemplate
 
     def has_required (field)
         @active_field = field
-        self.rule_code = %Q{
-        def eval_rule (entity)
-           !entity.#{field}.nil? && !entity.#{field}.empty?
-        end
-        }
+        self.rule_code = "!entity.#{field}.nil? && !entity.#{field}.empty?"
     end
 
     def has_unique(*fields)
-        self.rule_code = %Q{
-        def eval_rule (entity)
+      self.rule_code = %Q{
            unless entity.class.respond_to?(:find)
              return false
            end
@@ -152,30 +147,40 @@ module RuleTemplate
             return false
           end
           true
-        end
         }
     end
 
     def has_not_changed(field)
         self.rule_code = %Q{
-        def eval_rule (entity)
            if entity.new_record?
               return true
            end
            result = entity.class.find(entity.id)
            return (result.nil? || result.#{field}.nil? || result.#{field}.empty? || result.#{field} == entity.#{field})
-        end
         }
     end
 
     def evaluate (entity, result_card)
-        #puts self.rule_code
-        instance_eval self.rule_code
-        @passed = eval_rule entity
+      if @target_child.nil?
+        rule = create_proc(self.rule_code)
+      else
+        # TODO: want to use inflector 'pluralize' method instead of 
+        # #{@target_child}s but not sure how to 'require' it in the unit test context.
+        apply_rule_to_children = %Q{
+            @passed = true if @passed.nil?
+            entity.#{@target_child}s.each do |#{@target_child}|
+              child_rule = create_proc(self.rule_code)
+              @passed = false unless child_rule.call(#{@target_child})
+            end
+            @passed
+        }
+        rule = create_proc(apply_rule_to_children)
+        end
+        @passed = rule.call entity
         if @passed
-            result_card.register_rule_result self, nil, false
+          result_card.register_rule_result self, nil, false
         else
-            result_card.register_rule_result self, self.body, @abort_on_fail
+          result_card.register_rule_result self, self.body, @abort_on_fail
         end
         @passed
     end
@@ -201,13 +206,16 @@ module RuleTemplate
         if(self.gate_code.nil? || self.gate_code.empty?)
             return true
         end
-        self.gate_code = %Q{
-            def eval_gate_condition(entity)
-              #{self.gate_code}
-            end
-            }
-        #puts self.gate_code
-        instance_eval self.gate_code
-        eval_gate_condition entity
+        gate_condition = create_proc(self.gate_code)
+        gate_condition.call entity
+    end
+
+    def create_proc(code)
+      full_code = %Q{
+      proc do |entity|
+        #{code}
+      end
+      }
+      instance_eval(full_code)
     end
 end

@@ -17,9 +17,21 @@ end
 
 # Mock target entity
 class TestEntity
-    attr_accessor :title, :artist_name, :id, :icpn, :component_number, :release_date, :new_record
+    attr_accessor :title, :artist_name, :id, :icpn, :component_number,
+      :release_date, :new_record, :tracks
 
-    def self.find(*arguments)
+# Set up some child entity test data...
+  def initialize()
+    self.tracks = []
+    5.times do |i|
+      child = TestChildEntity.new
+      child.title = "Child Title #{i.to_s}"
+      child.artist_name = "Child Artist"
+      self.tracks << child
+    end
+  end
+
+  def self.find(*arguments)
 
       # Setup first test result...
       item1 = TestEntity.new
@@ -59,7 +71,11 @@ class TestEntity
     def new_record?
       self.new_record
     end
-end
+  end
+
+  class TestChildEntity
+    attr_accessor :title, :artist_name, :id, :sequence_number, :new_record
+  end
 
 class RuleTemplateTest < Test::Unit::TestCase
     def test_single_target_applies
@@ -703,6 +719,39 @@ class RuleTemplateTest < Test::Unit::TestCase
         test_entity.artist_name = 'item1'
         test_entity.id = 'item1'
         test_entity.icpn = 'item4'
+        test_entity.new_record = false;
+
+        result_card = ResultCard.new
+
+        assert !rule.evaluate(test_entity, result_card)
+    end
+
+    def test_where_each_child_has_field_equal_to_rule_passes
+        rule = Rule.new
+
+        rule.where_each :track
+        rule.has :artist_name
+        rule.equal_to 'Child Artist'
+
+        test_entity = TestEntity.new
+        test_entity.artist_name = 'Parent Artist'
+        test_entity.new_record = false;
+
+        result_card = ResultCard.new
+
+        assert rule.evaluate(test_entity, result_card)
+    end
+
+    def test_where_each_child_has_field_equal_to_rule_fails
+        rule = Rule.new
+
+        rule.where_each :track
+        rule.has :artist_name
+        rule.equal_to 'Child Artist'
+
+        test_entity = TestEntity.new
+        test_entity.artist_name = 'Parent Artist'
+        test_entity.tracks[3].artist_name = 'Different Artist'
         test_entity.new_record = false;
 
         result_card = ResultCard.new
