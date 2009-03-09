@@ -1,5 +1,8 @@
 == Welcome to Rails
 Paul E has changed this
+Another change
+
+YOHOHOHOHOHO
 
 Rails is a web-application framework that includes everything needed to create 
 database-backed web applications according to the Model-View-Control pattern. 
@@ -24,6 +27,8 @@ unlike the relationship between the Active Record and Action Pack that is much
 more separate. Each of these packages can be used independently outside of
 Rails.  You can read more about Action Pack in
 link:files/vendor/rails/actionpack/README.html.
+
+asdfasdfasdfasdfasd
 
 
 == Getting Started
